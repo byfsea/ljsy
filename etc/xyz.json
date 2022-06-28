@@ -49,14 +49,4 @@
             {"type": "field","outboundTag": "blocked","domain": ["geosite:category-ads-all"]}
         ]
     }
-  
-    "dns": {
-        "servers": [
-            {
-                "address": "https+local://dns.google/dns-query",
-                "address": "https+local://cloudflare-dns.com/dns-query",
-                "skipFallback": true
-            }
-        ],
-        
-  }
+}
