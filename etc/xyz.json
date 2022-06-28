@@ -49,19 +49,7 @@
             {"type": "field","outboundTag": "blocked","domain": ["geosite:category-ads-all"]}
         ]
     }
-    "outbounds": [
-        {
-            "protocol": "freedom",
-            "settings": {
-               "domainStrategy": "UseIPv4",
-               "userLevel": 0
-            }
-        },
-        {
-            "protocol": "blackhole",
-            "tag": "blocked"
-        }
-    ],
+  
     "dns": {
         "servers": [
             {
@@ -70,8 +58,5 @@
                 "skipFallback": true
             }
         ],
-        "queryStrategy": "UseIPv4",
-        "disableCache": true,
-        "disableFallbackIfMatch": true
-    }
-}
+        
+  }
